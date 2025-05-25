@@ -1,0 +1,115 @@
+body {
+  background-color:rgba(0, 84, 166, 0.1);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 15px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.auth-links {
+  font-size: 15px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #0054A6;
+  color: white;
+  padding: 15px 0;
+  margin: -30px -30px 30px -30px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.club {
+  display: flex;
+}
+
+#club {
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100px;
+  margin: 20px auto 0;
+  padding: 10px;
+  background-color: #0054A6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0d4378;
+}
